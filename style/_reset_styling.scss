@@ -1,0 +1,46 @@
+/* Resetting initial settings */
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button, button:active, button:focus {
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    border: none;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:hover {
+    border: none;
+}
+
+img {
+    border: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}

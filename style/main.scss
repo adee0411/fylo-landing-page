@@ -1,0 +1,12 @@
+@import 'media';
+@import 'normalize';
+@import 'reset_styling';
+@import 'variables';
+
+
+body {
+    background-color: var(--main-clr);
+    color: var(--main-text-clr);
+
+    transition: background-color .5s ease, color .5s ease; // Smooth change between dark / light theme
+}
